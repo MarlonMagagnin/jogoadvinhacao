@@ -1,0 +1,31 @@
+.body{
+	background: #F5F5DC;
+}
+
+.principal{
+	text-align: center;
+	background: #F5F5DC;
+	padding-top: 80px;
+	font-family: sans-serif;
+
+}
+.navbar{
+	background: #E6E6FA;
+	font-family: sans-serif;
+	justify-content: center;
+}
+#btn{
+	margin-top: 20px;
+	cursor: pointer;
+	width: 170px;
+
+}
+#recarregar{
+	margin-top: 20px;
+	margin-left: 20px;
+	cursor: pointer;
+	width: 170px;
+}
+.descricao{
+	padding-top: 20px;
+}
