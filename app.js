@@ -6,11 +6,11 @@ var contador = 0
 document.getElementById("btn").onclick=function(){
     if(document.getElementById("palpite").value > numero){
         num_maior.push(document.getElementById("palpite").value)
-        document.getElementById("num_maior").innerHTML = num_maior.toString(" * ");
+        document.getElementById("num_maior").innerHTML = num_maior.join(" / ");
         contador++
     } else if (document.getElementById("palpite").value < numero){
         num_menor.push(document.getElementById("palpite").value)
-        document.getElementById("num_menor").innerHTML = num_menor.toString(" * ");
+        document.getElementById("num_menor").innerHTML = num_menor.join(" / ");
         contador++
     } else {
         document.getElementById("contador").innerHTML = contador
